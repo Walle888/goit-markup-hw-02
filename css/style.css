@@ -3,6 +3,8 @@
     --b-dark: #2F303A;
     /*text color*/
     --txt-dark: #212121;
+    --txt-gray: #757575;
+
     /*fonts*/
     --main-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
@@ -35,10 +37,19 @@ font-family:Roboto, sans-serif ;
 .navigation-link:focus{
     color: #2196F3;
 }
-.mail,
-.tel{
+.mail-link,
+.tel-link{
     color: #757575;
 }
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus{
+    color: #2196F3;
+}
+
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -52,6 +63,16 @@ font-family:Roboto, sans-serif ;
     overflow: hidden;
 }  
 /*================HEADER================*/
+
+.header{
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
 .logo-header{
 font-family: Raleway, sans-serif;
 font-weight: 700;
@@ -60,7 +81,9 @@ line-height: 1.192;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-
+.logo-black{
+   color: #000; 
+}
 .navigation-item{
 font-family: Roboto,sans-serif;
 font-weight: 500;
@@ -89,9 +112,20 @@ color: #757575;
 .contacts-mail:hover,
 .contacts-mail:focus{
     color: #2196F3;
+}
 /*================END HEADER================*/
 
 /*================HERO================*/
+
+.hero{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
 .hero-title{
 font-family: Roboto,sans-serif;
 font-weight: 900;
@@ -113,6 +147,14 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 /*================END HERO================*/
 
@@ -148,6 +190,16 @@ color: #212121;
 /*================END ACTIVITIES================*/
 
 /*================OUR STAFF================*/
+
+.our-staff{
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
+}
+
 .staff{
 font-family: Roboto,sans-serif;
 font-weight: 700;
@@ -179,6 +231,16 @@ color: #757575;
 /*================ END OUR STAFF================*/
 
 /*================ FOOTER================*/
+
+.footer{
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+
 .logo-footer{
 font-family: Raleway, sans-serif;
 font-weight: 700;
@@ -187,7 +249,9 @@ line-height: 1.192;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-
+.logo-white{
+    color: #fff;
+}
 .footer-link{
 font-family: Roboto, sans-serif;
 font-weight: normal;
