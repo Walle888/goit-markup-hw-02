@@ -1,0 +1,226 @@
+:root {
+    /*baclgraund color*/
+    --b-dark: #2F303A;
+    /*text color*/
+    --txt-dark: #212121;
+    /*fonts*/
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+  }
+
+  body {
+    font-family: var(--main-font);
+    color: var(--txt-grey);
+  }
+.address{
+    font-style: normal;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+html {
+font-family:Roboto, sans-serif ;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+    color: #2196F3;
+}
+.mail,
+.tel{
+    color: #757575;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}  
+/*================HEADER================*/
+.logo-header{
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-Size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.navigation-item{
+font-family: Roboto,sans-serif;
+font-weight: 500;
+font-Size: 14px;
+line-height: 1.172;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+
+.contacts{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.02em;
+}
+.contacts-mail{
+    color: #2196F3;
+}
+
+.contacts-tel{
+color: #757575;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus{
+    color: #2196F3;
+/*================END HEADER================*/
+
+/*================HERO================*/
+.hero-title{
+font-family: Roboto,sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-button{
+font-family: Roboto,sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+/*================END HERO================*/
+
+/*================ABOUT US================*/
+.quality{ font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .quality-description{
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+/*================ END ABOUT US================*/
+
+/*================ACTIVITIES ================*/
+.our-activities{
+font-family: Roboto,sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*================END ACTIVITIES================*/
+
+/*================OUR STAFF================*/
+.staff{
+font-family: Roboto,sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.staff-name{
+font-family: Roboto,sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.staff-description{
+font-family: Roboto,sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*================ END OUR STAFF================*/
+
+/*================ FOOTER================*/
+.logo-footer{
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.footer-link{
+font-family: Roboto, sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-mail{
+font-family: Roboto, sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/*================END FOOTER================*/
+
+
+
+
+
+
+
+
+
