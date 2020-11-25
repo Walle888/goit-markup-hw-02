@@ -25,14 +25,13 @@
     color: var(--txt-dark);
   }
 
-.address{
-    font-style: normal;
-}
 ul{
     list-style: none;
     padding: 0;
 }
 li{
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 a{
@@ -41,6 +40,7 @@ a{
 
 .mail-link,
 .tel-link{
+    font-style: normal;
     color: var(--txt-grey);
 }
 .mail-link:hover,
@@ -157,21 +157,24 @@ border-radius: 4px;
 /*================END HERO================*/
 
 /*================ABOUT US================*/
-.quality{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--txt-dark);
-    }
-    .quality-description{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--txt-grey);
-    }
+
+.qualities{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--txt-dark);
+}
+
+.quality-description{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: var(--txt-grey);
+}
+
 /*================ END ABOUT US================*/
 
 /*================ACTIVITIES ================*/
@@ -229,7 +232,11 @@ color: var(--fha-blue);
 .logo-white{
     color: var(--txt-white);
 }
+.footer-item{
+font-style: normal;
+}
 .footer-link{
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
