@@ -1,5 +1,5 @@
 :root {
-    /*baclgraund color*/
+    /*background color*/
     --b-dark: #2F303A;
     /*text color*/
     --txt-dark: #212121;
@@ -8,7 +8,7 @@
     --txt-white:#FFFFFF;
     /*fonts*/
     --main-font: Roboto, sans-serif;
-    --secondary-font: Raleway, sans-serif;
+    --secondary-font: Raleway;
   }
 
   body {
@@ -36,6 +36,11 @@ li{
 }
 a{
     text-decoration: none;
+}
+
+h2,h3{
+font-family: var(--main-font);
+color: var(--txt-dark);
 }
 
 .mail-link,
@@ -87,6 +92,7 @@ line-height: 1.192;
 letter-spacing: 0.03em;
 color: var(--fha-blue);
 }
+
 .logo-black{
    color: #000; 
 }
@@ -194,13 +200,13 @@ background: #F5F4FA;
 }
 
 .staff-name{
-font-family: var(--txt-dark);
-font-weight: 500;
+font-weight: bold;
 font-size: 16px;
 line-height: 1.187;
 text-align: center;
 letter-spacing: 0.03em;
 }
+
 
 .staff-description{
 font-weight: 400;
