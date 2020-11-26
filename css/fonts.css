@@ -37,8 +37,9 @@
 @font-face {
     font-family: 'Raleway-bold';
     src:
-        url('../fonts/fonts/Roboto-Medium.woff2') format('woff2'),
-        url('../fonts/Roboto-Medium.woff') format('woff');
+        url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
+
